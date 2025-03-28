@@ -1,4 +1,4 @@
-name: Business-Case
+name: business_case
 version: '1.0'
 config-version: 2
 
@@ -7,5 +7,5 @@ profile: default
 model-paths: ["models"]
 
 models:
-  Business-Case:
+  business_case:
     +materialized: table
