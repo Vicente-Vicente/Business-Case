@@ -7,5 +7,4 @@ profile: default
 model-paths: ["models"]
 
 models:
-  business_case:
-    +materialized: table
+  +materialized: table
