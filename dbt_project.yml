@@ -1,0 +1,11 @@
+name: dbt-cloud-70471823446549-teste
+version: '1.0'
+config-version: 2
+
+profile: default
+
+model-paths: ["models"]
+
+models:
+  dbt-cloud-70471823446549-teste:
+    +materialized: table
