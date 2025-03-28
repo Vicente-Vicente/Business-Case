@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
@@ -40,3 +41,15 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+=======
+name: business_case
+version: '1.0'
+config-version: 2
+
+profile: default
+
+model-paths: ["models"]
+
+models:
+  +materialized: table
+>>>>>>> 6661a528e0b68030bc22d9a2b6c676fa4ec50104
